@@ -58,3 +58,13 @@ Watch out! only changes until the latest add will be uploaded.
 this branch is not online. you'd have to commit and push it
 `$ git push origin feature_x`
 
+## 11) merge feature branch back to master
+change back to master
+`$ git diff feature_x master`
+`$ git checkout master`
+merge branch
+`$ git merge feature_x`
+manually edit conflicts
+`$ git add <filename>`
+delete the closed brach
+`$ git branch -d feature_x`

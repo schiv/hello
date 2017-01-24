@@ -78,7 +78,8 @@ delete the closed brach
 `$ git tag 1.0.0 16c4b7e72172828ed2bc8869005102999c899ce6`
 
 ## 13) go back to latest add/commit
-`$ git checkout -- <filename>`
+or restore a deleted file 
+`$ git checkout -- commanline.md`
 
 ## 14) completely remove local changes
 `$ git fetch origin`

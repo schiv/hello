@@ -34,3 +34,12 @@ work on the files ...
 
 5) suggest a change
 $ git add commanline.md
+
+6) commit your changes
+changes move to your local HEAD, but not to the remote repository
+$ git commit -m "I added commanline.md"
+
+7) upload your changes to the repository
+Watch out! only changes until the latest add will be uploaded. 
+$ git push origin master
+// $ git push origin testing

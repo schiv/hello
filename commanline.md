@@ -76,3 +76,10 @@ delete the closed brach
 ## 12) you can tag commits
 `$ git log`
 `$ git tag 1.0.0 16c4b7e72172828ed2bc8869005102999c899ce6`
+
+## 13) go back to latest add/commit
+$ git checkout -- <filename>
+
+## 14) completely remove local changes
+$ git fetch origin
+$ git reset --hard origin/master

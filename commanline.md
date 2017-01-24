@@ -10,7 +10,8 @@ schiv/hello
 # Please adapt and uncomment the following lines:
 name  = schiv
 email = schiv@users.noreply.github.com
------------------------------------------------------------```
+-----------------------------------------------------------
+```
 `$ git commit --amend --reset-author`
 
 # 3a) create a new repository on the command line

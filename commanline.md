@@ -54,3 +54,7 @@ Watch out! only changes until the latest add will be uploaded.
 ## 10) work in this branch
 `$ git add *`
 `$ git commit -m "feature_x commit 1"`
+
+this branch is not online. you'd have to commit and push it
+`$ git push origin feature_x`
+

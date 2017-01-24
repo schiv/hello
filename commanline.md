@@ -87,4 +87,4 @@ delete the closed brach
 ## 15) notes
 `$ git config color.ui true`
 `$ git config format.pretty oneline`
-git add -i 
+`$ git add -i`

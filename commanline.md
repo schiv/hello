@@ -65,6 +65,14 @@ change back to master
 merge branch
 `$ git merge feature_x`
 manually edit conflicts
-`$ git add <filename>`
+`$ git add *`
+push the merged master to repository
+`$ git commit -m "just merged feature_x"`
+`$ git push origin master`
+
 delete the closed brach
 `$ git branch -d feature_x`
+
+## 12) you can tag commits
+`$ git log`
+`$ git tag 1.0.0 16c4b7e72172828ed2bc8869005102999c899ce6`
